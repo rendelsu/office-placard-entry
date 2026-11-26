@@ -5,7 +5,7 @@ const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outputDir, { recursive: true });
 
 const line =
-  "Hole Punch, cast iron, c. 2014. Gift of Facilities. Recovered from the Temple of Quarterly Reports, where priests cut two perfect circles from every offering: compliance.";
+  "Hole Punch, cast iron, Third Desk Dynasty. Gift of Facilities. Priests pierced every offering twice, lest it come before the gods unbound: filing.";
 
 const outputFile = join(outputDir, "entry.txt");
 writeFileSync(outputFile, line + "\n", "utf8");
